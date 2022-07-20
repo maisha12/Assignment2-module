@@ -157,7 +157,30 @@ h1 {
 
 }
 
-.thumnail img {
-    width: 100%;
 
+/*rez*/
+@media (max-width:576px) {
+    article.blog {
+
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        width: 90%;
+
+    }
+
+
+    .small-div {
+
+        display: flex;
+    }
+
+    .footer-div h3 {
+        font-size: 1.4rem;
+
+    }
+
+    .last p {
+        text-overflow: ellipsis;
+
+    }
 }
